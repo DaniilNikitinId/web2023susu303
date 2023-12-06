@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<header>
+    <div class="header">
+        <div class="headerName">ToDoList</div>
+        <button class="ButtonCreate" onclick="openWindow()">
+        Create 
+        </button>
+        
+        
+    </div>
+</header>
+<body>
+ 
+  <div class="pop_up" id="my">
+      <div class="pop_up_container">
+          <div class="pop_up_body">
+              <p>Введите ваши задачи</p>
+              <input type="text" id="inputId">
+              <input type="text" id="inputName">
+              <button class="button1" onclick="add()">add</button>
+              <button class="button1" id = "close">close</button>
+              <button class="button1" onclick = "edit()">edit</button>
+<!--              <div class="pop_up_close">закрыть</div>-->
+          </div>
+      </div>
+  </div>
+  
+  
+   <div id = "main">
+   <div><h1 class="myWork">Мои дела</h1></div>
+    
+    <div id="input">
+<!--
+    <input type="text" id="inputId">
+    <input type="text" id="inputName">
+-->
+    </div>
+<!--    <button class="button1" onclick="add()">Add</button>-->
+    <hr>
+        <div id="out">
+            
+        </div>
+    </div>
+    
+</body>
+  
+   <footer>
+       <div class="footer">
+           <div class="footer_text">
+               Никитин Даниил, КЭ-303
+           </div>
+       </div>
+   </footer>
+   
+    <script src='1.js'> </script>
+</html>
